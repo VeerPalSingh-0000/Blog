@@ -1,108 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Me - Your Name</title>
-    <link rel="stylesheet" href="about.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="about.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="../images/about/favicon-32x32.png">
+
+  </head>
+  <body>
     <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="nav-logo">Portfolio</a>
-            <ul class="nav-menu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="about.html" class="active">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">Portfolio</a>
+    <ul class="nav-menu">
+      <li><a href="../index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+      </button>
+      <div class="mobile-menu-toggle" id="mobileMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+</nav>
+
 
     <!-- Hero Section -->
     <section class="about-hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-image">
-                    <img src="../images/profile2.jpg" alt="Your Name" class="profile-image">
-                    <div class="image-border"></div>
-                </div>
-                <div class="hero-text">
-                    <h1 class="hero-title">Hi, I'm <span class="highlight">Veer Pal Singh</span></h1>
-                    <p class="hero-subtitle">Full Stack Developer & Creative Problem Solver</p>
-                    <p class="hero-description">
-                        I'm passionate about creating beautiful, functional web applications and bringing ideas to life through code. 
-                        With expertise in modern web technologies, I love building solutions that make a difference.
-                    </p>
-                    <div class="social-links">
-                        <a href="https://github.com/VeerPalSingh-0000" target="_blank" class="social-link">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="social-link">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="https://twitter.com/yourhandle" target="_blank" class="social-link">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="mailto:sveerpal7676@gmail.com" class="social-link">
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-image">
+            <img
+              src="../images/profile2.jpg"
+              alt="Your Name"
+              class="profile-image"
+            />
+            <div class="image-border"></div>
+          </div>
+          <div class="hero-text">
+            <h1 class="hero-title">
+              Hi, I'm <span class="highlight">Veer Pal Singh</span>
+            </h1>
+            <p class="hero-subtitle">
+              Full Stack Developer & Creative Problem Solver
+            </p>
+            <p class="hero-description">
+              I'm passionate about creating beautiful, functional web
+              applications and bringing ideas to life through code. With
+              expertise in modern web technologies, I love building solutions
+              that make a difference.
+            </p>
+            <div class="social-links">
+              <a
+                href="https://github.com/VeerPalSingh-0000"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://linkedin.com/in/yourprofile"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://twitter.com/yourhandle"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="mailto:sveerpal7676@gmail.com" class="social-link">
+                <i class="fas fa-envelope"></i>
+              </a>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Skills Section -->
     <section class="skills-section">
-        <div class="container">
-            <h2 class="section-title">My Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <div class="skill-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>Frontend Development</h3>
-                    <div class="skill-list">
-                        <span class="skill-tag">HTML5</span>
-                        <span class="skill-tag">CSS3</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">React</span>
-                        <span class="skill-tag">Vue.js</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <div class="skill-icon">
-                        <i class="fas fa-server"></i>
-                    </div>
-                    <h3>Backend Development</h3>
-                    <div class="skill-list">
-                        <span class="skill-tag">Node.js</span>
-                        <span class="skill-tag">Express</span>
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">MongoDB</span>
-                        <span class="skill-tag">PostgreSQL</span>
-                    </div>
-                </div>
-                
-                <div class="skill-category">
-                    <div class="skill-icon">
-                        <i class="fas fa-tools"></i>
-                    </div>
-                    <h3>Tools & Technologies</h3>
-                    <div class="skill-list">
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">AWS</span>
-                        <span class="skill-tag">Figma</span>
-                        <span class="skill-tag">VS Code</span>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <div class="skill-icon">
+              <i class="fas fa-code"></i>
             </div>
+            <h3>Frontend Development</h3>
+            <div class="skill-list">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Vue.js</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-icon">
+              <i class="fas fa-server"></i>
+            </div>
+            <h3>Backend Development</h3>
+            <div class="skill-list">
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Express</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">MongoDB</span>
+              <span class="skill-tag">PostgreSQL</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h3>Tools & Technologies</h3>
+            <div class="skill-list">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">AWS</span>
+              <span class="skill-tag">Figma</span>
+              <span class="skill-tag">VS Code</span>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Experience Section -->
@@ -154,54 +193,60 @@
 
     <!-- Personal Section -->
     <section class="personal-section">
-        <div class="container">
-            <div class="personal-content">
-                <div class="personal-text">
-                    <h2 class="section-title">Beyond Code</h2>
-                    <p>
-                        When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, 
-                        or enjoying outdoor activities. I believe in continuous learning and staying up-to-date with the 
-                        latest trends in web development.
-                    </p>
-                    <p>
-                        I'm passionate about creating user-friendly experiences and writing clean, maintainable code. 
-                        My goal is to build applications that not only look great but also solve real-world problems.
-                    </p>
-                </div>
-                <div class="personal-stats">
-                    <div class="stat-item">
-                        <div class="stat-number">15+</div>
-                        <div class="stat-label">Projects Completed</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">2+</div>
-                        <div class="stat-label">Years Experience</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">10+</div>
-                        <div class="stat-label">GitHub Commits</div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="personal-content">
+          <div class="personal-text">
+            <h2 class="section-title">Beyond Code</h2>
+            <p>
+              When I'm not coding, you'll find me exploring new technologies,
+              contributing to open-source projects, or enjoying outdoor
+              activities. I believe in continuous learning and staying
+              up-to-date with the latest trends in web development.
+            </p>
+            <p>
+              I'm passionate about creating user-friendly experiences and
+              writing clean, maintainable code. My goal is to build applications
+              that not only look great but also solve real-world problems.
+            </p>
+          </div>
+          <div class="personal-stats">
+            <div class="stat-item">
+              <div class="stat-number">15+</div>
+              <div class="stat-label">Projects Completed</div>
             </div>
+            <div class="stat-item">
+              <div class="stat-number">2+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">10+</div>
+              <div class="stat-label">GitHub Commits</div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- CTA Section -->
     <section class="cta-section">
-        <div class="container">
-            <div class="cta-content">
-                <h2>Let's Work Together</h2>
-                <p>I'm always excited to take on new challenges and collaborate on interesting projects.</p>
-                <a href="contact.html" class="cta-button">Get In Touch</a>
-            </div>
+      <div class="container">
+        <div class="cta-content">
+          <h2>Let's Work Together</h2>
+          <p>
+            I'm always excited to take on new challenges and collaborate on
+            interesting projects.
+          </p>
+          <a href="contact.html" class="cta-button">Get In Touch</a>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Veer Pal Singh. All rights reserved.</p>
-        </div>
+      <div class="container">
+        <p>&copy; 2025 Veer Pal Singh. All rights reserved.</p>
+      </div>
     </footer>
-</body>
+    <script src="another.js"></script>
+  </body>
 </html>
